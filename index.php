@@ -33,26 +33,18 @@ $result = $connection->query('SELECT * FROM `projecten`');
                     <header>
                     </header>
                     <p><?php echo $row['beschrijving']; ?></p>
+                    <p><?php echo $row['prijs'] ?></p>
                 </article>
             <?php endforeach; ?>
 
              <article class="titels">
-                    <h2>Alle Projecten</h2>
+                    <h2></h2>
                     <figure class="foto" style="background-image: url(images/<?php echo $row['foto']; ?>)"></figure>
                     <header>
-                        <h3>Project-1</h3>
-                        <em>€ 10.00</em>
                     </header>
-                    <p>Project-2</p>
+                    <p></p>
                 </article>
-                    <article class="titels">
-                        <h2>project</h2>
-                        <figure class="foto" style="background-image: url(images/)"></figure>
-                        <header>
-                            <h3>Project-3</h3>
-                        </header>
-                        <p></p>
-                    </article>
+                
  
 
 
