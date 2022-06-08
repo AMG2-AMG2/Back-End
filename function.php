@@ -16,7 +16,7 @@ function dbConnect()
         return $connection;
         
     } catch (PDOException $error) {
-        echo "Verbinding niet gemaakt: " .  $error->getMessage();
+        echo "Geen verbinding gemaakt: " .  $error->getMessage();
         exit;
     }
 }
