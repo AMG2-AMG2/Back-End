@@ -2,7 +2,7 @@
 require 'function.php';
 $connection = dbConnect();
 
-$result = $connection->query('SELECT * FROM `projecten`');
+$result = $connection->query('SELECT * FROM `design`');
 ?>
 
 

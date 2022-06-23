@@ -223,3 +223,171 @@ img {
     width: 107.7rem;
     background: gray;
 }
+
+
+.contact_h1{
+    font-size: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: blue;
+    width: 1rem;
+    height: 2rem;
+}
+
+.contact_head{
+    margin-top: 20px;
+    width: 1200px;
+    height: 900px;
+    background:#F9EBC8 ;
+}
+
+.contact_header > h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.contact_name{
+    font-size: 30px;
+}
+
+.contact_button{
+    background: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+
+.contact_button:hover{
+    cursor: pointer;
+    
+}
+
+
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contact_form label{
+    width: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact_form input{
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.contact_form textarea{
+    width: 90%;
+    padding: 20px;
+    
+
+}
+
+
+.contact_form2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contact_form2 label{
+    width: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact_form2 input{
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.contact_form2 textarea{
+    width: 90%;
+    padding: 20px;
+    
+
+}
+
+
+
+.contact_form3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    
+}
+
+.contact_form3 label{
+    width: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact_form3 input{
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.contact_form3 textarea{
+    width: 90%;
+    padding: 20px;
+    
+
+}
+
+
+
+.contact_form4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contact_form4 label{
+    width: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact_form4 input{
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.contact_form4 textarea{
+    width: 90%;
+    padding: 20px;
+    
+
+}
+
+.form_error{
+    color: white;
+    background: red;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+
+}
+

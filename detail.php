@@ -1,5 +1,3 @@
-
-
 <?php
 require 'function.php';
 $connection = dbConnect();
@@ -16,7 +14,7 @@ if($check_int == false){
     exit;
 }
 
-$statement = $connection->prepare('SELECT * FROM `projecten` WHERE id=?');
+$statement = $connection->prepare('SELECT * FROM `design` WHERE id=?');
 $params = [$id];
 $statement->execute($params);
 $place = $statement->fetch(PDO::FETCH_ASSOC);
@@ -39,6 +37,8 @@ $place = $statement->fetch(PDO::FETCH_ASSOC);
         <figure><img src="images/<?php echo $place['foto']?>" alt="" width="700px" height="500px"></figure>
         <p class="p"><?php echo $place['beschrijving']?>
         <a class="hal"></a><?php echo $place["prijs"]?>
+        <a href="contact.php">Neem contact op</a>
+
         <a href="index.php">Terug naar het overzicht
         </p>
 
